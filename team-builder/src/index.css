@@ -1,0 +1,9 @@
+*{
+  border: 1px solid grey;
+
+}
+
+.container{
+  border: 1px solid black;
+  text-align: center;
+}
