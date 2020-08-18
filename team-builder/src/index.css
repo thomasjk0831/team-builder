@@ -1,9 +1,42 @@
 *{
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
+
+}
+body{
+  background-color: royalblue;
 
 }
 
 .container{
   border: 1px solid black;
   text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  
+}
+
+
+.form{
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid black;
+  background-color: white;
+ display:flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 10px;
+}
+
+label{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 800
+}
+
+button{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

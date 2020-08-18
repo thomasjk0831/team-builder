@@ -19,10 +19,9 @@ function Form(props){
     
     console.log(member)
     return(
-        <div className='container'>
-            <form onSubmit={submitHandler}>
-                <label forhtml="name">Name</label>
-                <input 
+        
+            <form onSubmit={submitHandler} class="form">
+                <label forhtml="name">Name  <input 
                     id="name" 
                     type="text"
                     name="name"
@@ -30,19 +29,19 @@ function Form(props){
                     placeholder="Enter Name"
                     onChange={changeHandler}
                     /> 
+                </label>
                 
-                <label forhtml="email">Email</label>
-                <input 
+                <label forhtml="email">Email  <input 
                     id="email" 
-                    type="text"
+                    type="email"
                     name="email"
                     value={member.email}
                     placeholder="Enter Email"
                     onChange={changeHandler}
                     /> 
+                </label>
                 
-                <label forhtml="role">Role</label>
-                <input 
+                <label forhtml="role">Role &nbsp;&nbsp;<input 
                     id="role" 
                     type="text"
                     name="role"
@@ -50,10 +49,11 @@ function Form(props){
                     placeholder="Enter Role"
                     onChange={changeHandler}
                     /> 
+                </label>
                 <button type="submit">Add Member</button>
             </form>
 
-        </div>
+        
     )
 }
 
