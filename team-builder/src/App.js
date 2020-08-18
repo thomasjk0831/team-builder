@@ -10,6 +10,7 @@ function App() {
 
   const updateTeam = (member) => {
     const newObj ={
+      id : Date.now(),
       name: member.name,
       email: member.email,
       role: member.role,
